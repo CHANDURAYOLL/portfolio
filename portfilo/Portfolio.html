@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - N.CHANDU</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body id="portfolio">
+    <header>
+        <h1>N.CHANDU</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2>Portfolio</h2>
+        <div class="project">
+            <h3><ul>Project 1 - Creation of Single Page Website</ul></h3>
+            <p>In today's digital age, having an online portfolio is essential for personal branding, career advancement, or business promotion. This project serves as a practical demonstration of web development skills and creativity, providing a platform to display one's talents and achievements effectively. </p>
+            <a href="project1.html">View project</a>
+        </div>
+        <div class="project">
+            <h3><ul>Project 2 -Create A To Do List Using HTML Programming Language</ul></h3>
+            <p>In this project, we developed a simpleto-do list application using HTML and JavaScript. We began by setting up theHTMLstructure, including a title, heading, and an unordered list to display tasks. Each task wasrepresented as a list item with checkboxes for interaction.  </p>
+            <a href="project2.html">View project</a>
+        </div>
+        
+        <!-- File Upload Form -->
+        <div class="upload-form">
+            <h3>Upload Your Project</h3>
+            <form action="/upload" method="post" enctype="multipart/form-data">
+                <input type="file" name="file" id="file">
+                <input type="submit" value="Upload">
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 N.CHANDU</p>
+    </footer>
+</body>
+</html>
